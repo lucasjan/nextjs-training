@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "../../components/Alfredsung/header";
+import Header from "../../components/alfredsung/header";
 
 
 export default function Alfredsung() {

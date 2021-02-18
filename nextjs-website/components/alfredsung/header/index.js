@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from './Alfredsungheader.module.css'
+import styles from './header.module.css'
 
 export default function Header() {
     return (
@@ -25,9 +25,17 @@ export default function Header() {
               </div>
           </div>
         </section>
-        <section className="grid grid-cols-2 mt-10">
-          <div>
-          
+        <section className="grid grid-cols-2 mt-10 bg-as-grey">
+          <div className="flex-col-center">
+            <h1 className="flex flex-col">
+              <span className="font-ass-modern text-11xl flex-left leading-none">Elegant</span>
+              <span className="font-ass-brittany text-7xl flex-right leading-none">style glasses</span>  
+            </h1>
+            <div className="lg:mt-20 mt-10">
+                    <button className={styles.borderheaderFormat}  type="button">
+                        SHOP NOW
+                    </button>
+            </div>
           </div>
           <div>
             <div className="w-full">
