@@ -5,7 +5,45 @@ module.exports = {
     extend: {
       backgroundColor: theme => ({
         'as-grey': '#E1E2E2',
+        'theme-color': '#1C1C1C',
+        'ass-theme-color': '#E1E2E2',
+        'ass-background-color': '#CACCC9',
+        'ass-bgcolor-orange': '#FB8122',
+        'ass-bgcolor-black': '#1D2228',
+        'mgbd-red': '#EC221C',
+        'mgbd-grey': '#2e2e2e',
+        'gnf-primary': '#1B232A',
+        'gnf-secondary': '#F9A34F',
+        'uat-primary': '#1A1A1A',
+        'yale-primary': '#FBE82D',
+        'yale-grey': '#464646',
+        'pj-orange': '#F07A18',
+        'pj-orange-fruit': '#ED8E40',
+        'pj-yellow-fruit': '#F8D25A',
+        'pj-green-fruit': '#A5D15D',
+        'pj-grey': '#E1E1E1',
+        'pj-primary': '#F6F5FA',
+        'pj-secondary': '#575757',
+        'paradise-primary': '#F2B846',
+        'paradise-primary-light': '#F8DBA2',
+        'paradise-secondary': '#013953',
+        'lucas-grey': '#AAAAAA',
+        'lucas-blue': '#2D3A66',
+        'pm-orange': '#FF6138',
+        'pm-blue': '#141733',
       }),
+
+      textColor: theme => ({
+        'ass-primary': '#FB8122',
+        'gnf-primary': '#F9A34F',
+        'gnf-grey': '#999999',
+        'mgbd-red':'#EC221C',
+        'mgbd-grey': '#939292',
+        'yale-grey': '#777777',
+        'paradise-orange': '#F2B846',
+        'paradise-grey': '#616161',
+        'pm-orange': '#FF6138',
+    }), 
 
       fontSize: {
         'xs': '.75rem',
@@ -29,7 +67,7 @@ module.exports = {
       fontFamily:{
         'ass-modern': ['MOD20'],
         'ass-brittany': ['BrittanySignatureRegular, Brittany Signature'],
-  
+        'ass-raleway': ['Raleway'],
       },
 
     },
