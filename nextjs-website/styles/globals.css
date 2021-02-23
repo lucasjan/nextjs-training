@@ -5,7 +5,7 @@
 @import url('/font/MOD20.TTF');
 @import url('/font/BrittanySignature.ttf');
 @import url('/font/Raleway-Regular.ttf');
-
+@import url('/font/VarelaRound-Regular.ttf');
 
 .container-wrap {
     @apply container mx-auto;

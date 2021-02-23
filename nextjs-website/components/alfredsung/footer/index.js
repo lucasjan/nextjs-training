@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './footer.module.css'
 
-export default function Header() {
+export default function Footer() {
     return (
       <div>
         <footer className="flex flex-col items-center justify-center bg-ass-bgcolor-black pt-20 pb-20 md:pl-0 md:pr-0 pl-5 pr-5">
